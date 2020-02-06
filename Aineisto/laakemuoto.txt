@@ -1,0 +1,260 @@
+LAAKEMUOTOTUN;LAAKEMUOTONIMI;LAAKEMUOTONIMIR;LAAKEMUOTONIMIE
+4;injektioneste, liuos, esitäytetty injektori;injektionsvätska, lösning i förfylld injektor;solution for injection in pre-filled injector
+5;annosjauhe;dospulver;single-dose oral powder
+11;dentaaligeeli;dentalgel;dental gel
+13;depotkapseli;depotkapsel;prolonged-release capsule
+14;depotlaastari;depotplåster;transdermal patch
+15;depotrakeet;depotgranulat;prolonged-release granules
+16;depottabletti;depottablett;prolonged-release tablet
+17;emulsiovoide;kräm;cream
+18;emätingeeli;vaginalgel;vaginal gel
+21;emätinpuikko;vagitorium;pessary
+25;emätinvoide;vaginalsalva;vaginal ointment
+27;enterorakeet;enterogranulat;gastro-resistant granules
+28;enterotabletti;enterotablett;gastro-resistant tablet
+29;geeli;gel;gel
+36;hemofiltraationeste;hemofiltrationsvätska;solution for haemofiltration
+38;imeskelytabletti;sugtablett;lozenge
+39;implantaatti;implantat;implant
+40;infuusiokonsentraatti;infusionskoncentrat;concentrate for infusion
+45;inhalaatiojauhe;inhalationspulver;inhalation powder
+46;inhalaatiokaasu;inhalationsgas;inhalation gas
+55;injektiokuiva-aine;injektionssubstans;powder for injection
+56;injektioneste;injektionsvätska;injection
+66;injektioneste, liuos, esitäytetty ruisku;injektionsvätska, lösning i förfylld spruta;solution for injection in pre-filled syringe
+68;infuusioneste, liuos, antovälineistö;infusionsvätska, lösning i administreringssats;solution for infusion in administration system
+69;jauhe;oralt pulver;oral powder
+73;kapseli terapiaan;kapsel till terapi;capsule for therapy
+74;kapseli;kapsel;capsule
+89;injektioneste, suspensio, esitäytetty kynä;injektionsvätska, suspension i förfylld injektionspenna;suspension for injection in pre-filled pen
+93;liukeneva tabletti;löslig tablett;soluble tablet
+95;silmä/korvatipat, suspensio;ögon/örondroppar, suspension;eye/ear drops, suspension
+98;infuusiokonsentraatti, liuosta varten/injektioneste, liuos;koncentrat till infusionvätska, lösning/injektionsvätska, lösning;concentrate for solution for infusion/solution for injection
+106;rakeet oraaliliuosta varten, annospussi;granulat till oral lösning i dospåse;granules for oral solution in sachet
+107;injektiokuiva-aine ja liuotin, depotsuspensiota varten, esitäytetty ruisku;pulver och vätska till injektionsvätska, depotsuspension i förfylld spruta;powder and solvent for prolonged-rel. susp. for inj. in pre-filled syringe
+108;liuos päänahkaan;lösning för hårbotten;solution for scalp
+109;jauhe oraaliliuosta varten, annospussi;pulver till oral lösning i endosbehållare;powder for oral solution in single-dose container
+115;liuos;lösning;solution
+121;nenäjauhe;näspulver;nasal powder
+126;nenävoide;nässalva;nasal ointment
+129;peritoneaalidialyysineste;peritonealdialysvätska;solution for peritoneal dialysis
+130;peräpuikko;suppositorium;suppository
+132;peräruiske;rektalvätska;enema
+134;porejauhe;bruspulver;effervescent powder
+136;poretabletti;brustablett;effervescent tablet
+139;purutabletti;tuggtablett;chewable tablet
+143;rakeet;granulat;granules
+147;rektaalivaahto;rektalskum;rectal foam
+148;rektaalivoide;rektalsalva;rectal ointment
+149;resoribletti;resoriblett, sublingual;sublingual tablet
+150;geeli ientaskuun;periodontalgel;periodontal gel
+151;shampoo;schampo;shampoo
+153;silmä/korvavoide;ögon/öronsalva;eye/ear ointment
+154;silmälamelli;ögonlamell;ophthalmic insert
+156;suspensio ja porerakeet oraalisuspensiota varten;suspension och brusgranulat för oral suspension;suspension and effervescent granules for oral suspension
+159;silmävoide;ögonsalva;eye ointment
+160;injektiokuiva-aine ja liuotin suspensiota varten, esitäytetty ruisku;pulver och vätska till injektionsvätska, suspension i förfylld spruta;powder and solvent for suspension for injection in pre-filled syringe
+164;ihovaahto;kutant skum;cutaneous foam
+170;suuvesi;munsköljvätska;mouthwash
+173;tabletti;tablett;tablet
+175;tipat;droppar;drops
+177;voide;salva;ointment
+180;voidesukka;salvstrumpa;ointment sock
+182;injektio-/infuusiokuiva-aine ja liuotin, liuosta varten;pulver och vätska till injektions-/infusionsvätska, lösning;powder and solvent for solution for injection/infusion
+184;enterokapseli ja tabletti;enterokapsel och tablett;gastro-resistant capsule and tablet
+186;nenäsumute, liuos, kerta-annospakkaus;nässpray, lösning i endosbehållare;nasal spray, solution in single-dose container
+189;sumute iholle, liuos;kutan spray, lösning;cutaneous spray, solution
+190;geeli suoleen;intestinal gel;intestinal gel
+193;enterodepotrakeet;enterodepotgranulat;gastro-resistant, prolonged release granules
+194;depotlääkevalmiste, emättimeen;vaginalinlägg;vaginal delivery system
+197;bukkaalitabletti, kiinnittyvä;buckaltablett, häftande;muco-adhesive buccal tablet
+199;peräpuikko ja rektaalivoide, creme;suppositorium och rektalkräm;suppository and rectal cream
+200;silmägeeli;ögongel;eye gel
+203;injektiokuiva-aine liuosta/suspensiota varten;pulver till injektionsvätska, lösning/suspension;powder for solution/suspension for injection
+206;liuos iholle;kutan lösning;cutaneous solution
+210;oraaliliuos;oral lösning;oral solution
+211;oraalisuspensio;oral suspension;oral suspension
+213;injektio/infuusiokonsentraatti, liuosta varten;koncentrat till injektions/infusionsvätska, lösning;concentrate for solution for injection/infusion
+214;jauhe oraalisuspensiota varten;pulver till oral suspension;powder for oral suspension
+215;rakeet oraaliliuosta varten;granulat till oral lösning;granules for oral solution
+216;rakeet oraalisuspensiota varten;granulat till oral suspension;granules for oral suspension
+218;jauhe ja liuotin oraalisuspensiota varten;pulver och vätska till oral suspension;powder and solvent for oral suspension
+219;sumutinliuos;lösning för nebulisator;nebuliser solution
+221;sumutinsuspensio;suspension för nebulisator;nebuliser suspension
+224;inhalaatiosumute, liuos;inhalationsspray, lösning;pressurised inhalation, solution
+225;inhalaatiosumute, suspensio;inhalationsspray, suspension;pressurised inhalation, suspension
+228;jauhe oraaliliuosta varten;pulver till oral lösning;powder for oral solution
+229;bukkaalitabletti;buckaltablett;buccal tablet
+232;injektio/infuusioneste, emulsio;injektion/infusionvätska, emulsion;emulsion for injection/infusion
+233;tabletti, kylmäkuivattu;frystorkad tablett;oral lyophilisate
+234;tabletti, päällystetty;dragerad tablett;coated tablet
+235;tabletti, kalvopäällysteinen;filmdragerad tablett;film-coated tablet
+240;injektiokuiva-aine ja liuotin, liuosta varten;pulver och vätska till injektionsvätska, lösning;powder and solvent for solution for injection
+242;injektiokuiva-aine, liuosta varten;pulver till injektionsvätska, lösning;powder for solution for injection
+243;injektiokuiva-aine, suspensiota varten;pulver till injektionsvätska, suspension;powder for suspension for injection
+244;injektioneste, liuos;injektionsvätska, lösning;solution for injection
+245;injektioneste, suspensio;injektionsvätska, suspension;suspension for injection
+246;injektioneste, emulsio;injektionsvätska, emulsion;emulsion for injection
+248;depotrakeet oraalisuspensiota varten;depotgranulat till oral suspension;prolonged-release granules for oral suspension
+250;kapseli, kova;kapsel, hård;capsule, hard
+251;kapseli, pehmeä;kapsel, mjuk;capsule, soft
+253;infuusioneste, liuos;infusionsvätska, lösning;solution for infusion
+254;infuusioneste, emulsio;infusionsvätska, emulsion;emulsion for infusion
+260;inhalaatiohöyry, neste;inhalationsånga, vätska;inhalation vapour, liquid
+261;infuusiokuiva-aine ja liuotin, liuosta varten;pulver och vätska till infusionsvätska, lösning;powder and solvent for solution for infusion
+265;rektaalivoide, creme;rektalkräm;rectal cream
+267;tipat, liuos;orala droppar, lösning;oral drops, solution
+269;tipat, emulsio;orala droppar, emulsion;oral drops, emulsion
+270;injektio/infuusiokuiva-aine, liuosta varten ;pulver till injektion/infusionvätska, lösning;powder for solution for injection/infusion
+271;peräruiskeliuos;rektallösning;rectal solution
+272;peräruiskesuspensio;rektalsuspension;rectal suspension
+274;infuusiokonsentraatti, liuosta varten;koncentrat till infusionsvätska, lösning;concentrate for solution for infusion
+275;siirappi;sirap;syrup
+278;infuusiokuiva-aine, liuosta varten;pulver till infusionsvätska, lösning;powder for solution for infusion
+280;injektio/infuusioneste, liuos;injektion/infusionsvätska, lösning;solution for injection/infusion
+281;emätinpuikko, tabletti;vaginaltablett;vaginal tablet
+283;emätinpuikko, kapseli, pehmeä;vaginalkapsel, mjuk;vaginal capsule, soft
+313;emulsio iholle;kutan emulsion;cutaneous emulsion
+315;korvatipat, liuos;örondroppar, lösning;ear drops, solution
+316;korvatipat, suspensio;örondroppar, suspension;ear drops, suspension
+328;depotkapseli, kova;depotkapsel, hård;prolonged-release capsule, hard
+330;enterokapseli, kova;enterokapsel, hård;gastro-resistant capsule, hard
+331;enterokapseli, pehmeä;enterokapsel, mjuk;gastro-resistant capsule, soft
+333;dispergoituva tabletti;dispergerbar tablett;dispersible tablet
+334;oraaligeeli;oral gel;oral gel
+338;liuos suuonteloon;munhålelösning;oromucosal solution
+341;sumute suuonteloon;munhålespray;oromucosal spray
+343;nenäsumute, liuos;nässpray, lösning;nasal spray, solution
+344;nenäsumute, suspensio;nässpray, suspension;nasal spray, suspension
+346;injektiokonsentraatti ja liuotin, liuosta varten;koncentrat och vätska till injektionsvätska, lösning;concentrate and solvent for solution for injection
+347;rakeet oraalisuspensiota varten, annospussi;granulat till oral suspension i dospåse;granules for oral suspension in sachet
+348;injektio/infuusiokuiva-aine ja liuotin, liuos;pulver och vätska till injektions/infusionsvätska, lösning;powder and solvent for solution for injection/infusion
+349;silmätipat, liuos;ögondroppar, lösning;eye drops, solution
+350;silmätipat, suspensio;ögondroppar, suspension;eye drops, suspension
+351;inhalaatiojauhe, kapseli, kova;inhalationspulver, hård kapsel;inhalation powder, hard capsule
+352;inhalaatiojauhe, annosteltu;inhalationspulver, avdelad dos;inhalation powder, pre-dispensed
+353;injektiokuiva-aine ja liuotin, liuosta varten, esitäytetty kynä;pulver och vätska till injektionsvätska, lösning i förfylld injektionspenna;powder and solvent for solution for injection in pre-filled pen
+354;virtsatiepuikko;uretralstift;urethral stick
+355;nenätipat, liuos;näsdroppar, lösning;nasal drops, solution
+356;nenätipat, suspensio;näsdroppar, suspension;nasal drops, suspension
+358;sumutinliuos, kerta-annossäiliö;lösning för nebulisator i endosbehållare;nebuliser solution in single-dose container
+364;lääkepurukumi;medicinskt tuggummi;medicated chewing-gum
+365;injektio- tai infuusioneste, dispersiota varten;injektions- eller infusionsvätska, dispersion;solution for dispersion for injection or infusion
+366;depotlääkevalmiste, kohtuun;intrauterint inlägg;intrauterine delivery system
+367;injektio-/infuusioneste, liuos;injektions-/infusionsvätska, lösning;solution for injection/infusion
+369;injektiokuiva-aine ja liuotin, liuosta varten, esitäytetty ruisku;pulver och vätska till injektionsvätska, lösning i förfylld spruta;powder and solvent for solution for injection in pre-filled syringe
+370;lääkkeellinen kaasu, puristettu;medicinsk gas, komprimerad;medicinal gas, compressed
+372;lääkkeellinen kaasu, nesteytetty;medicinsk gas, flytande;medicinal gas, liquefied
+373;lääkkeellinen kaasu, kryogeeninen;medicinsk gas, kryogen;medicinal gas, cryogenic
+378;enterorakeet oraalisuspensiota varten;enterogranulat till oral suspension;gastro-resistant granules for oral suspension
+379;injektio/infuusioneste, liuos, moniannospakkaus;injektions-/infusionsvätska, lösning, flerdosbehållare;solution for injection/infusion, multidose container
+380;infuusiokuiva-aine, suspensiota varten;pulver till infusionsvätska, suspension;powder for suspension for infusion
+387;geeli suuonteloon;munhålegel;oromucosal gel
+394;dentaalisuspensio;dentalsuspension;dental suspension
+396;hammastahna;tandkräm;toothpaste
+399;suspensio ja emulsio injektionestettä varten, emulsio;suspension och emulsion till injektionsvätska, emulsion;suspension and emulsion for emulsion for injection
+401;lääkekynsilakka;medicinskt nagellack;medicated nail lacquer
+403;ihopuikko;kutant stift;cutaneous stick
+409;depotsilmätipat;depotögondroppar;eye drops, prolonged-release
+420;injektiokonsentraatti, liuosta varten;koncentrat till injektionsvätska, lösning;concentrate for solution for injection
+421;liuotin parenteraaliseen käyttöön;spädningsvätska för parenteral användning;solvent for parenteral use
+429;instillaatiosuspensio hengitysteihin;instillationsvätska för luftvägarna, suspension;endotracheopulmonary instillation, suspension
+436;kantaliuos radioaktiivista lääkettä varten;stamlösning till radioaktiva läkemedel;radiopharmaceutical precursor
+437;radionuklidigeneraattori;radionuklidgenerator;radionuclide generator
+438;valmisteyhdistelmä radioaktiivista lääkettä varten;beredningssats för radioaktiva läkemedel;kit for radiopharmaceutical preparation
+444;infuusiokuiva-aine, dispersiota varten;pulver till infusionsvätska, dispersion;powder for dispersion for infusion
+446;kuiva-aine välikonsentraatiksi injektio-/infuusionestettä varten, liuos;pulver till koncentrat till injektions-/infusionsvätska, lösning;powder for concentrate for solution for injection/infusion
+449;jauhe ja liuotin sumutinliuosta varten;pulver och vätska till lösning för nebulisator;powder and solvent for nebuliser solution
+450;jauhe ja liuotin instillaatioliuosta varten, silmän sisään;pulver och vätska för instillationvätska, intraokulär andvändning;powder and solvent for instillation, intraocular use
+451;injektio/infuusiokuiva-aine ja liuotin, liuosta varten;pulver och vätska till injektions/infusionsvätska, lösning;powder and solvent for solution for injection/infusion
+457;injektioneste, suspensio, sylinteriampulli;injektionsvätska, suspension i cylinderampull;suspension for injection in cartridge
+459;konsentraatti ja liuotin välikonsentraatiksi infuusionestettä varten, liuos;koncentrat och vätska till koncentrat till infusionsvätska, lösning;concentrate and solvent for concentrate for solution for infusion
+462;injektioneste, liuos, esitäytetty kynä;injektionsvätska, lösning i förfylld injektionspenna;solution for injection in pre-filled pen
+463;tabletti ja liuotin peräruiskesuspensiota varten;tablett och vätska till rektalsuspension;tablet and solvent for rectal suspension
+464;infuusiokuiva-aine konsentraattiliuosta varten;koncentrat till infusionsvätska, lösning;powder for concentrate for solution for infusion
+465;injektiokuiva-aine ja liuotin, suspensiota varten;pulver och vätska till injektionsvätska, suspension;powder and solvent for suspension for injection
+466;infuusioneste, liuos ja oraaliliuos;infusionsvätska, lösning, och oral lösning;solution for infusion and oral solution
+467;hemodialyysi- / hemofiltraationeste;lösning för hemodialys / hemofiltration;solution for haemodialysis / haemofiltration
+468;implantaattisuspensio;suspension för implantation;implantation suspension
+469;oraaliliuos, annospussi;oral lösning i dospåse;oral solution in sachet
+471;oraalisuspensio, annospussi;oral suspension i dospåse;oral suspension in sachet
+472;injektioneste, depotsuspensio, esitäytetty kynä;injektionsvätska, depotsuspension i förfylld injektionspenna;prolonged-release suspension for injection in pre-filled pen
+473;implantaatti silmän lasiaiseen, asetin;intravitrealt implantat i applikator;intravitreal implant in applicator
+474;injektioneste, liuos/infuusiokonsentraatti, liuosta varten;injektionsvätska, lösning /koncentrat till infusionvätska, lösning;solution for injection/concentrate for solution for infusion
+475;injektioneste, dispersio;injektionsvätska, dispersion;dispersion for injection
+478;jauhe suuonteloon, pussi;munhålepulver i portionspåse;oromucosal powder in pouch
+480;silmätipat, suspensio, kerta-annospakkaus;ögondroppar, suspension i endosbehållare;eye drops, suspension in single-dose container
+481;kuiva-aine välikonsentraatiksi infuusionestettä varten, liuos;pulver till koncentrat till infusionsvätska, lösning;powder for concentrate for solution for infusion
+486;kuiva-aine ja liuotin välikonsentraatiksi infuusionestettä varten, liuos;pulver och vätska till koncentrat till infusionsvätska, lösning;powder and solvent for concentrate for solution for infusion
+487;emulsiovoide + emätinpuikko, kapseli pehmeä;kräm + vaginalkapsel, mjuk;cream + vaginal capsule, soft
+488;injektio-/infuusioneste, liuos, esitäytetty ruisku;injektions-/infusionsvätska, lösning i förfylld spruta;solution for injection/infusion in pre-filled syringe
+491;infuusioneste, liuos, esitäytetty ruisku;infusionsvätska, lösning i förfylld spruta;solution for infusion in pre-filled syringe
+494;jauhe ja geeli geeliä varten;pulver och gel till gel;powder and gel for gel
+495;injektioneste, depotsuspensio;injektionsvätska, depotsuspension;prolonged-release suspension for injection
+498;depottabletti, kalvopäällysteinen;filmdragerad tablett med modifierad frisättning;modified-release film-coated tablet
+499;injektiokuiva-aine ja liuotin, suspensiota varten, esitäytetty ruisku;pulver och vätska till injektionsvätska, suspension i förfylld spruta;powder and solvent for suspension for injection in pre-filled syringe
+503;kudosvastine, elävä;levande vävnadsersättning;living tissue equivalent
+505;kudosliimamatriksi;matris till vävnadslim;sealant matrix
+506;kuiva-aine, dispersio ja liuotin välikonsentraatiksi infuusion. var., disp.;pulver, dispersion och vätska till koncentrat till infusionsv., dispersion;powder, dispersion and solvent for concentrate for dispersion for infusion
+507;injektio-/infuusioneste, emulsio, esitäytetty ruisku;injektions-/infusionsvätska, emulsion i förfylld spruta;emulsion for injection/infusion in pre-filled syringe
+508;infuusioneste, dispersio;infusionsvätska, dispersion;dispersion for infusion
+509;jauhe ja liuotin liuosta varten, virtsarakkoon;pulver och vätska till intravesikal lösning;powder and solvent for intravesical solution
+510;inhalaationeste, liuos;inhalationsvätska, lösning;inhalation solution
+511;korvatipat, liuos, kerta-annospakkaus;örondroppar, lösning i endosbehållare;ear drops, solution in single-dose container
+512;transdermaaligeeli;transdermal gel;transdermal gel
+513;kuiva-aine välikonsentraatiksi infuusionestettä varten, dispersio;pulver till koncentrat till infusionsvätska, dispersion;powder for concentrate for dispersion for infusion
+514;konsentraatti oraaliliuosta varten;koncentrat till oral lösning;concentrate for oral solution
+521;silmätipat, emulsio;ögondroppar, emulsion;eye drops, emulsion
+522;inhalaatiohöyry, kyllästetty patruuna;inhalationsånga, impregnerad plugg;inhalation vapour, impregnated plug
+526;injektiokuiva-aine ja liuotin, depotsuspensiota varten, esitäytetty kynä;pulver och vätska till injektionsvätska, depotsuspension i förfylld injekti;powder and solvent for prolonged-release suspension for injection in pre-fi
+527;puuteri;puder;cutaneous powder
+529;kuiva-aine välikonsentraatiksi ja liuos infuusionestettä varten, liuos;pulver till koncentrat och lösning till infusionsvätska, lösning;powder for concentrate and solution for solution for infusion
+530;rakeet, annospussi;granulat i dospåse;granules in sachet
+533;laastari iholle;kutant plåster;cutaneous patch
+534;konsentraatti huuhtelunestettä varten, silmän sisään;koncentrat till spolvätska, lösning för intraokulär användning;concentrate for solution for intraocular irrigation
+535;tabletti, suussa hajoava;munsönderfallande tablett;orodispersible tablet
+536;dispergoituvat tabletit annostelulaitteeseen;dispergerbara tabletter för dosdispenser;dispersible tablets for dose dispenser
+539;jauhe ja liuotin suspensiota varten, virtsarakkoon;pulver och vätska till intravesikal suspension;powder and solvent for intravesical suspension
+541;säädellysti vapauttava tabletti;tablett med modifierad frisättning;modified-release tablet
+543;säädellysti vapauttava kapseli, kova;kapsel med modifierad frisättning, hård;modified-release capsule, hard
+545;rakeet, avattavat kapselit;granulat i kapslar avsedda att öppnas;granules in capsules for opening
+546;transdermaalisumute, liuos;transdermal spray, lösning;transdermal spray, solution
+547;emätinemulsiovoide;vaginalkräm;vaginal cream
+550;emulsiovoide + emätinpuikko, tabletti;kräm + vaginaltablett;cream + vaginal tablet
+551;liuos ja suspensio injektionestettä varten, suspensio, esitäytetty ruisku;lösning och suspension till injektionsvätska, suspension i förfylld spruta;solution and suspension for suspension for injection in pre-filled syringe
+553;depotinjektioneste, liuos;injektionsvätska, depotlösning;prolonged-release solution for injection
+554;infuusiokonsentraatti, emulsiota varten;koncentrat till infusionsvätska, emulsion;concentrate for emulsion for infusion
+555;injektio/infuusiokuiva-aine liuosta/suspensiota varten;pulver till injektions/infusionsvätska, lösning/suspension;powder for solution/suspension for injection/infusion
+557;implantaatti, esitäytetty ruisku;implantat i förfylld spruta;implant in pre-filled syringe
+562;purukapseli, pehmeä;tuggkapsel, mjuk;chewable capsule, soft
+564;sumute suuonteloon, liuos;munhålespray, lösning;oromucosal spray, solution
+565;purutabletti/dispergoituva tabletti;tuggtablett/dispergerbar tablett;chewable/dispersible tablet
+567;injektioneste, suspensio, moniannospakkaus;injektionsvätska, suspension i flerdosbehållare;suspension for injection in multidose container
+570;nenäjauhe, kerta-annospakkaus;näspulver i endosbehållare;nasal powder in single-dose container
+585;liuokset kudosliimaa varten;lösningar till vävnadslim;solutions for sealant
+595;infuusiokonsentraatti, suspensiota varten;koncentrat till infusionsvätska, suspension;concentrate for suspension for infusion
+605;silmägeeli, kerta-annospakkaus;ögongel i endosbehållare;eye gel in single-dose container
+655;silmätipat, liuos, kerta-annospakkaus;ögondroppar, lösning i endosbehållare;eye drops, solution in single-dose container
+656;infuusiokuiva-aine ja liuotin, infuusiokonsentraattia varten;pulver och vätska till koncentrat till infusionsvätska;powder and solvent for concentrate for infusion
+677;kuiva-aine inhalaatiojauhetta varten, valmisteyhdistelmä radioaktiivista lä;pulver till inhalationspulver, beredningssats för radioaktiva läkemedel;solid for inhalation powder, radiopharmaceutical kit
+698;injektiokuiva-aine ja suspensio, suspensiota varten;pulver och suspension till injektionsvätska, suspension;powder and suspension for suspension for injection
+708;jauhe oraalisuspensiota/peräruiskesuspensiota varten;pulver till oral/rektal suspension;powder for oral/rectal suspension
+739;injektioneste, liuos, kerta-annosruisku;injektionsvätska, lösning i endosspruta;single-dose solution injection
+799;infuusiokonsentraatti ja liuotin, liuosta varten;koncentrat och vätska till infusionsvätska, lösning;concentrate and solvent for solution for infusion
+809;injektiokuiva-aine ja liuotin, dispersiota varten;pulver och vätska till injektionsvätska, dispersion;powder and solvent for dispersion for injection
+829;peräpuikko ja rektaalivoide;suppositorium och rektalsalva;suppository and rectal ointment
+839;oraalineste;oral vätska;oral liquid
+849;jauhe rakonsisäisesti tiputettavaa liuosta varten;pulver för beredning av lösning för installation i urinblåsan;powder for bladder liquid
+869;injektioneste, suspensio, esitäytetty ruisku;injektionsvätska, suspension i förfylld spruta;suspension for injection in pre-filled syringe
+889;injektioneste, liuos, sylinteriampulli;injektionsvätska, lösning i cylinderampull;solution for injection in cartridge
+899;lääkelaastari;medicinerad plåster;medicated plaster
+929;paikallisantiseptiliuos;lokalantiseptikumslösning;antiseptic solution for local use
+930;ihonpuhdisteliuos;hudrengöringslösning;solution for washing
+959;valmisteyhdistelmä radioaktiivista infuusionestettä varten;beredningssats för radioaktiva läkemedel för infusion;kit for radiopharmaceutical preparation for infusion
+969;enterotabletti ja peräruiskesuspensio;enterotablett och rektal suspension;gastro-resistant tablet and rectal suspension
+991;valmisteyhdistelmä implantaatiota varten;beredningssats för implantat;kit for implant
+993;injektiokuiva-aine ja liuotin, depotsuspensiota varten;pulver och vätska till injektionsvätska, depotsuspension;powder and solvent for prolonged-release suspension for injection
+994;oraaliliuos, kerta-annosampulli;oral lösning i endosampull;oral solution in single-dose ampoule
+996;bukkaalikalvo;buckalfilm;buccal film
+997;liuos ihopistotestiin;lösning för pricktest;solution for skin-prick test
+999;oraaliliuos, kerta-annospakkaus;oral lösning i endosbehållare;oral solution in single-dose container
