@@ -1,0 +1,42 @@
+---
+title: "Lääkkeiden tilastoja"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+pakkaus1<-read_delim(paste0(getwd(),"/Aineisto/pakkaus1.txt"),";")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Perustietoa
+
+```{r}
+#Lasketaan eri lääkepakkausten, vnr- ja atc-luokkien määrä
+maarat <- pakkaus1 %>% summarise(pakkauksia = n_distinct(PAKKAUSNRO),
+                                 vnrnumeroita = n_distinct(VNRNRO),
+                                 atcluokkia = n_distinct(ATCKOODI))
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
