@@ -32,21 +32,21 @@ maarat <- pakkaus1 %>% summarise(pakkauksia = n_distinct(PAKKAUSNRO),
                                  liikennevaarallisia = sum(LIIKENNEVAARA))
 #####SEuraavaksi osuudet
 
-osuudet <- pakkaus1 %>% summarise(vnr_osuus= round(!is.na(VNRNRO)/!is.na(PAKKAUSNRO)*100,1), 
-                                 atc_osuus= round(!is.na(ATCKOODI)/!is.na(PAKKAUSNRO)*100,1),
-                                 lääkenimet_osuus = round(!is.na(LAAKENIMI)/!is.na(PAKKAUSNRO)*100,1),
-                                 myyntilupanumeroiden_osuus = round(!is.na(MYYNTILUPANRO)/!is.na(PAKKAUSNRO)*100,1),
-                                 EU_myyntilupanumeroiden_osuus =                              round(!is.na(EUMYYNTILUPANRO)/!is.na(PAKKAUSNRO)*100,1),
+osuudet <- pakkaus1 %>% summarise(vnr_osuus= round(sum(!is.na(VNRNRO))/sum(!is.na(PAKKAUSNRO))*100,1), 
+                                 atc_osuus= round(sum(!is.na(ATCKOODI))/sum(!is.na(PAKKAUSNRO))*100,1),
+                                 lääkenimet_osuus = round(sum(!is.na(LAAKENIMI))/sum(!is.na(PAKKAUSNRO))*100,1),
+                                 myyntilupanumeroiden_osuus = round(sum(!is.na(MYYNTILUPANRO))/sum(!is.na(PAKKAUSNRO))*100,1),
+                                 EU_myyntilupanumeroiden_osuus =                              round(sum(!is.na(EUMYYNTILUPANRO))/sum(!is.na(PAKKAUSNRO))*100,1),
                                  huumausainelääkkeiden_osuus = 
-                 round(huumausainelääkkeitä/!is.na(PAKKAUSNRO)*100,1),
+                 round(sum(HUUME == "H",na.rm = T)/sum(!is.na(PAKKAUSNRO))*100,1),
                   liikennevaarallisten_osuus = 
-                 round(liikennevaarallisia/!is.na(PAKKAUSNRO)*100,1))
+                 round(sum(LIIKENNEVAARA)/sum(!is.na(PAKKAUSNRO))*100,1))
 
 #sitten vuodet
 vuodet <- pakkaus1 %>% mutate(vuodet = format(KAUPPAANTULOPVM, format = "%Y")) %>% group_by(vuodet) %>%  summarise(määrät_lääkepakkaus =n(),määrät_vnr = n_distinct(VNRNRO) )
 
 knitr::kable(maarat)
-knitr::kable(osuus)
+knitr::kable(osuudet)
 knitr::kable(vuodet)
 
 ```
