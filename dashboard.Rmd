@@ -9,7 +9,7 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(tidyverse)
-library(data.table)
+library(DT)
 pakkaus1<-read_delim(paste0(getwd(),"/Aineisto/pakkaus1.txt"),";")
 ```
 Perustiedot
@@ -43,20 +43,30 @@ osuudet <- pakkaus1 %>% summarise(vnr_osuus= round(sum(!is.na(VNRNRO))/sum(!is.n
                  round(sum(LIIKENNEVAARA)/sum(!is.na(PAKKAUSNRO))*100,1))
 
 #sitten vuodet
-vuodet <- pakkaus1 %>% mutate(vuodet = format(KAUPPAANTULOPVM, format = "%Y")) %>% group_by(vuodet) %>%  summarise(määrät_lääkepakkaus =n(),määrät_vnr = n_distinct(VNRNRO) )
+vuodet <- pakkaus1 %>% mutate(vuodet = format(KAUPPAANTULOPVM, format = "%Y")) %>% group_by(vuodet) %>%  summarise(lääkepakkauksia =n(),vnr_numeroita = n_distinct(VNRNRO),atc_luokkia = n_distinct(ATCKOODI),lääkenimiä = n_distinct(LAAKENIMI),
+                                 myyntilupanumeroita = n_distinct(MYYNTILUPANRO),
+                                 EU_myyntilupanumeroita = n_distinct(EUMYYNTILUPANRO),
+                                 haltijoita = n_distinct(HALTIJA),
+                                 huumausainelääkkeitä = sum(HUUME == "H",na.rm = T),
+                                 liikennevaarallisia = sum(LIIKENNEVAARA) ) 
 
 knitr::kable(maarat)
 knitr::kable(osuudet)
 knitr::kable(vuodet)
 
 ```
-Row {data-width=650}
+Row {data-width=150}
 -----------------------------------------------------------------------
-### Perustietojen kuvaaja
+### Perustietojen kuvaaja1 
 ```{r}
 m<-gather(maarat,muuttuja,arvo,pakkauksia:liikennevaarallisia,factor_key = T)
 
 ggplot(m,aes(x=muuttuja,y = arvo))+geom_bar(stat="identity")+coord_flip()
+```
+### Perustietojen kuvaaja2 
+```{r}
+v <- gather(vuodet,muuttuja,arvo,lääkepakkauksia:liikennevaarallisia,factor_key = T)
+ggplot(v,aes(x=vuodet,y = log(arvo),fill = muuttuja))+geom_bar(stat="identity")+coord_flip()
 ```
 
 ATC-luokat
@@ -64,10 +74,11 @@ ATC-luokat
 Row {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### ATC-pääluokat
 
 ```{r}
-
+pakkaus1$ATCPAA <- substr(pakkaus1$ATCKOODI,1,1)
+#pakkausten määrä per atc, vnr-numroita per atc, kauppanimi per atc jne.
 ```
 
 ### Chart C
@@ -75,9 +86,9 @@ Row {data-width=350}
 ```{r}
 
 ```
-Raakadata
-==================
-```{r}
-data.table(pakkaus1)
-```
 
+Mittayksiköt
+==================
+
+Ennustemallit
+=================
