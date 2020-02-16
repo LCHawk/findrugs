@@ -10,6 +10,7 @@ output:
 library(flexdashboard)
 library(tidyverse)
 library(DT)
+library(plotly)
 pakkaus1<-read_delim(paste0(getwd(),"/Aineisto/pakkaus1.txt"),";")
 ```
 Perustiedot
@@ -74,21 +75,62 @@ ATC-luokat
 Row {data-width=350}
 -----------------------------------------------------------------------
 
-### ATC-pääluokat
+### Pakkausnumeroita per ATC-koodi
 
 ```{r}
 pakkaus1$ATCPAA <- substr(pakkaus1$ATCKOODI,1,1)
 #pakkausten määrä per atc, vnr-numroita per atc, kauppanimi per atc jne.
+
+atc_hajonnat <- pakkaus1 %>% group_by(ATCKOODI) %>% summarise_at(vars(PAKKAUSNRO),funs(min,max,median,mean))
+
+datatable(atc_hajonnat,options = list(
+  pageLength = 25, autoWidth = TRUE,filter = 'top'
+))
 ```
 
-### Chart C
+### VNR-koodit ja kauppaantulopvm per ATC-luokka, box-plot
 
+```{r}
+atc_vnr <- pakkaus1 %>% group_by(ATCKOODI) %>% summarise(maara = n_distinct(VNRNRO))
+
+ggplot(atc_vnr,aes(x = '', y = log(maara)))+geom_boxplot()+labs(title = "vnr-koodeja per ATC-luokka")
+
+#Ei toimi tähän taulukko. Pitää piirtää lisää
+#Tehdään muuttuja vuosi huomoiden
+aa<-pakkaus1 %>% group_by(ATCPAA,RESEPTISTATUS) %>% summarise(pakkauksia = n_distinct(PAKKAUSNRO))
+  
+ggplot(aa,aes(x=ATCPAA,y = pakkauksia,fill = RESEPTISTATUS))+geom_bar(stat="identity")+coord_flip()+labs(title = "Pakkausten määrä reseptistatuksen mukaan ATC-pääluokittain")
+
+```
+
+
+Mittayksiköt
+==================
+Row {data-width=350}
+-----------------------------------------------------------------------
+## Pakkausten mittayksiköt
+```{r}
+mittayksiköt<-pakkaus1 %>% group_by(YKSIKKO) %>% summarise(minimi = min(KOKO),keskiarvo = mean(KOKO),mediaani = median(KOKO),maksimi = max(KOKO))
+
+ggplot(pakkaus1, aes(x = YKSIKKO,y = log(KOKO)))+geom_boxplot()
+```
+## Mittayksiköt ATC-luokittain
+```{r}
+#tähän heatmap
+
+df = data.frame(x = 1:5, y = 1:5, z = 1:5)
+plot_ly(df, x = ~x, y = ~y, type = "heatmap")
+```
+
+
+Row {data-width=350}
+-----------------------------------------------------------------------
+## DDD
 ```{r}
 
 ```
 
-Mittayksiköt
-==================
+
 
 Ennustemallit
 =================
